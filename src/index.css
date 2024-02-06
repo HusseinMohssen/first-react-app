@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layer {
+  background-color: #1ABC9C;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.main-layer:hover .layer {
+  opacity: 1;
+}
+
+.layer-2 {
+  z-index: 9999;
+}
+
+.layer-2 img {
+  width: 600px;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #1ABC9C;
+  border-radius: 7px;
+}
