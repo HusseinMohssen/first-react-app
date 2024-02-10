@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
 <nav className="navbar navbar-expand-lg text-uppercase sticky-md-top" style={{backgroundColor: '#2C3E50'}}>
   <div className="container my-3">
-    <Link className="navbar-brand" to={"/"} style={{color: 'white', fontWeight: "bolder", fontSize: '32PX'}}>start framework</Link>
+    <Link className="navbar-brand" to={"/home"} style={{color: 'white', fontWeight: "bolder", fontSize: '32PX'}}>start framework</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
