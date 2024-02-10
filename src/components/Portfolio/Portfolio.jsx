@@ -37,10 +37,10 @@ return (
         <div>
             <h2 style={{fontWeight: '700', fontSize: '40px', textAlign: 'center', paddingTop: '30px'}}>PORTFOLIO COMPONENT</h2>
             <div>
-                <div className='d-flex justify-content-around align-items-center '>
-                    <div style={{width: '80px', height:'4px', backgroundColor: '#2C3E50', marginLeft: '630px'}}></div>
+                <div className='d-flex justify-content-center align-items-center mb-2'>
+                    <div style={{width: '80px', height:'4px', backgroundColor: '#2C3E50', marginRight: '1rem'}}></div>
                         <div><i className="fa-solid fa-star "></i></div>
-                    <div style={{width: '80px', height:'4px', backgroundColor: '#2C3E50', marginRight: '630px'}}></div>
+                    <div style={{width: '80px', height:'4px', backgroundColor: '#2C3E50', marginLeft: '1rem'}}></div>
                 </div>
             </div>
         </div>
